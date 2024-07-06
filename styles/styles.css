@@ -1,3 +1,7 @@
+*{
+    margin: 0 0;
+}
+
 /* fonts style */
 .normal-fonts {
     font-family: "Open Sans", sans-serif;
@@ -23,8 +27,17 @@
     font-size: 20px;
     font-weight: 700;
     padding: 18px 36px;
+    border: none;
 }
-
+/* header */
+.header{
+    background: rgb(255, 248, 243);
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    
+}
   /* navigation style */
   nav{
     display: flex;
@@ -57,4 +70,33 @@
     text-decoration: none;
     font-size: 20px;
     cursor:pointer;
+  }
+
+
+  /* banner design */
+
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+  }
+  .banner-content{
+    max-width: 585px;
+  }
+
+  .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .banner-title{
+    font-size: 85px;
+    font-weight: bold;
+  }
+  .banner-discription{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+  }
+  .banner-profil-pic{
+    width: 580px;
   }
